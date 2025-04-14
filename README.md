@@ -10,15 +10,26 @@ This project documents the end-to-end implementation of a **dual-monitoring setu
 ## 📁 Project Structure
 
 /etc/ 
-  ├── otelcol/ 
-    │ └── config.yaml 
-  ├── prometheus/ 
+  ── otelcol/ 
+    └── config.yaml 
+  ── prometheus/ 
     │ └── prometheus.yml 
 ├── systemd/ 
-  │ ├── prometheus.service 
+     ├── prometheus.service 
   │ └── otelcol.service 
 
 /var/log/nginx/ ├── access.log ├── access.log.1 ├── error.log └── error.log.1
+
+/etc/ 
+├── otelcol/ 
+│    └── config.yaml 
+    ├── prometheus/ 
+    │ └── prometheus.yml 
+├── systemd/ 
+│ ├── prometheus.service 
+│ └── otelcol.service 
+/var/log/nginx/ 
+├── access.log ├── access.log.1 ├── error.log └── error.log.1
 
 ---
 
@@ -41,8 +52,8 @@ This project documents the end-to-end implementation of a **dual-monitoring setu
    - Confirmed data flow into Prometheus
 
 ### 🔥 Screenshot Previews
-
-![Grafana Host Metrics](https://raw.githubusercontent.com/grafana/grafana/master/public/img/docs/screens/grafana-dashboard.png)
+[![Grafana Node Exporter Dashboard](https://i.ibb.co/679Q6fWs/Screenshot-from-2025-04-14-22-05-50.png)](https://abhisheksarkate53.grafana.net/)
+![Grafana Host Logs](https://i.ibb.co/YTNbBq3P/Screenshot-from-2025-04-14-22-19-32.png)
 *Sample Host Dashboard from Grafana*
 
 ---
@@ -66,6 +77,12 @@ This project documents the end-to-end implementation of a **dual-monitoring setu
        source: nginx
 4. **Restarted Agent and verified ingestion**
 
+### 🔥 Screenshot Previews
+[![Grafana DataDog Metrics Dashboard](https://i.ibb.co/srWHysN/Screenshot-from-2025-04-14-22-21-47.png)](https://abhisheksarkate53.grafana.net/)
+![Grafana DataDog Logs](https://i.ibb.co/ZRhsrBDc/Screenshot-from-2025-04-14-22-24-07.png)
+*Sample Host Dashboard from Grafana*
+
+---
 ## ⚠️ Challenges Faced & Solutions
 
 | Challenge                        | Solution                                                |
