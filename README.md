@@ -38,6 +38,10 @@ This project documents the end-to-end implementation of a **dual-monitoring setu
      - Nginx logs
 5. **Enabled Node Exporter**
    - Confirmed data flow into Prometheus
+  
+   - 
+### Architecture Diagram
+[![Part One Diagram](https://i.postimg.cc/ryWWH5Hh/Blank-diagram.png)](https://postimg.cc/RqSN6J4f)
 
 ### 🔥 Screenshot Previews
 [![Grafana Node Exporter Dashboard](https://i.ibb.co/679Q6fWs/Screenshot-from-2025-04-14-22-05-50.png)](https://abhisheksarkate53.grafana.net/)
@@ -64,7 +68,8 @@ This project documents the end-to-end implementation of a **dual-monitoring setu
        service: nginx
        source: nginx
 4. **Restarted Agent and verified ingestion**
-
+### Architecture Diagram
+[![Part Two Diagram](https://i.postimg.cc/XJgWZHJH/Part-2.png)](https://postimg.cc/jwCmmhyP)
 ### 🔥 Screenshot Previews
 [![Grafana DataDog Metrics Dashboard](https://i.ibb.co/srWHysN/Screenshot-from-2025-04-14-22-21-47.png)](https://abhisheksarkate53.grafana.net/)
 ![Grafana DataDog Logs](https://i.ibb.co/ZRhsrBDc/Screenshot-from-2025-04-14-22-24-07.png)
