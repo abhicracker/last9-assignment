@@ -20,18 +20,6 @@ This project documents the end-to-end implementation of a **dual-monitoring setu
 
 /var/log/nginx/ ├── access.log ├── access.log.1 ├── error.log └── error.log.1
 
-/etc/ 
-├── otelcol/ 
-│    └── config.yaml 
-    ├── prometheus/ 
-    │ └── prometheus.yml 
-├── systemd/ 
-│ ├── prometheus.service 
-│ └── otelcol.service 
-/var/log/nginx/ 
-├── access.log ├── access.log.1 ├── error.log └── error.log.1
-
----
 
 ## 🧩 Part 1: OpenTelemetry + Grafana Implementation
 
